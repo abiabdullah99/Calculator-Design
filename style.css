@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+}
+.card-body #result{
+    width: 335px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: right;
+    padding: 0 5px;
+    background-color: #fff;
+    color: #1b1a1a;
+    letter-spacing: 2px;
+    
+    
+}
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #9824f7;
+    color: #fff;
+
+
+}
+.btn-style{
+    background-color: #fd40c4;
+}
+.btn:hover{
+    background: lightpink;
+    color: #404549;
+} 
